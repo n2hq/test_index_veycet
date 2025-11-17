@@ -103,7 +103,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     let [loading, setLoading] = useState(true)
 
     const baseurl = SITE_BASE_URL
-    console.log(SITE_BASE_URL)
+    //console.log(SITE_BASE_URL)
     const endpoint = '/api/user/signin'
     const requesturl = baseurl + endpoint
     const navigator = useNavigate()
