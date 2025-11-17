@@ -1,0 +1,1 @@
+import{j as e}from"./jsx-runtime-0DLF9kdB.js";const r=()=>e.jsx("div",{className:"absolute top-0 left-0 right-0 text-white bg-black/10 w-full p-4 flex place-content-center",children:e.jsx("div",{className:"",children:e.jsx("a",{href:"/",className:"underline text-white hover:text-white/50",children:"Home"})})});export{r as A};
