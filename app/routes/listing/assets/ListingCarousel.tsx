@@ -166,9 +166,7 @@ export const ListingCarousel = ({ images, listing }: any) => {
     return (
         <>
             <div className={`relative`}>
-                <div className={` w-full h-[300px] md:h-[500px] flex 
-          overflow-hidden z-20 shadow-lg shadow-gray-400
-          `}>
+                <div className={` w-full h-[300px] md:h-[500px] flex overflow-hidden z-20 `}>
                     {
                         slides?.map((slide: any, index: any) => {
 
